@@ -30,7 +30,7 @@ namespace SeleniumBingTests
             driver.Navigate().GoToUrl(appURL + "/");
             driver.FindElement(By.Name("username")).SendKeys("sergiogallego307270@correo.itm.edu.co");
             driver.FindElement(By.Name("username")).Click();
-            driver.FindElement(By.Name("password")).SendKeys("1035915351");
+            driver.FindElement(By.Name("password")).SendKeys("********");
             driver.FindElement(By.Name("password")).Click();
             Thread.Sleep(4000);
             IWebElement botonAcceder = driver.FindElement(By.XPath("//button[contains(text(), 'Acceder')]"));
