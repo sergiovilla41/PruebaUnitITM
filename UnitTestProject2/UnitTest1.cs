@@ -28,7 +28,7 @@ namespace SeleniumBingTests
         public void TheBingSearchTest()
         {
             driver.Navigate().GoToUrl(appURL + "/");
-            driver.FindElement(By.Name("username")).SendKeys("sergiogallego307270@correo.itm.edu.co");
+            driver.FindElement(By.Name("username")).SendKeys("*******@****");
             driver.FindElement(By.Name("username")).Click();
             driver.FindElement(By.Name("password")).SendKeys("********");
             driver.FindElement(By.Name("password")).Click();
